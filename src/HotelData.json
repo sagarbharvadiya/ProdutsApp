@@ -78,5 +78,94 @@
             "Text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
             "button": "Read More"
         }
+    ],
+    "product": [
+        {
+            "id": "1",
+            "img": "../img/1.jpg",
+            "del-price": "€3.1",
+            "price":"€2.79",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        },
+        {
+            "id": "2",
+            "img": "../img/2.jpg",
+            "del-price": "€12.43",
+            "price":"€9.94",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        },
+        {
+            "id": "3",
+            "img": "../img/3.jpg",
+            
+            "price":"€12.25",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        },
+        {
+            "id": "4",
+            "img": "../img/4.jpg",
+            "del-price": "19.33",
+            "price":"€15.46",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        },
+        {
+            "id": "5",
+            "img": "../img/5.jpg",
+            "del-price": "€12.35",
+            "price":"€9.88",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        },
+
+        {
+            "id": "6",
+            "img": "../img/6.jpg",
+            "del-price": "€12.45",
+            "price":"€9.96",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        },
+
+        {
+            "id": "7",
+            "img": "../img/7.jpg",
+            "del-price": "€2.43",
+            "price":"€2.19",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        },
+        {
+            "id": "8",
+            "img": "../img/8.jpg",
+            "del-price": "€13.4",
+            "price":"€9.38",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        },
+        {
+            "id": "9",
+            "img": "../img/9.jpg",
+            "del-price": "€5.24",
+            "price":"€3.67",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        },
+        {
+            "id": "10",
+            "img": "../img/10.jpg",
+            
+            "price":"€2.2",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        },
+        {
+            "id": "11",
+            "img": "../img/11.jpg",
+            "del-price": "€12.65",
+            "price":"€10.12",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        },
+        {
+            "id": "12",
+            "img": "../img/12.jpg",
+            "price":"€9.52",
+            "Text": "Lorem Ipsum is simply dummy text of the"
+        }
+
     ]
+
 }

@@ -1,6 +1,7 @@
 import React from 'react'
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import HotelData from "../src/HotelData.json"
+import Icons from './components/Icons'
 const Hotel = () => {
   return (
     <>
@@ -8,14 +9,19 @@ const Hotel = () => {
         <h1>
           Hotel Rooms
         </h1>
-        {HotelData.Data.map((value) => {
+        {HotelData.product.map((value) => {
           return (
             <>
               <div className='cards' key={value.id}>
                 <img src={value.img} alt="" />
-                <h2>{value.title}</h2>
+                <div>
                 <p>{value.Text}</p>
-                <Button variant="contained">Contained</Button>
+                <h6>{value.price} <del>{value['del-price']}</del></h6>
+                <div>
+                <Icons/>
+                </div>
+                {/* <Button variant="contained">Contained</Button> */}
+                </div>
               </div>
             </>
           )
