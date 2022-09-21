@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Robot',sans-serif;
+}
+.cards img{
+    max-width: 200px;
+}
+.carousel-item{
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}

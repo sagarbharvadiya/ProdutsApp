@@ -1,0 +1,82 @@
+{
+    "Logo": [
+        {
+            "id": "1",
+            "img": "../img/logo-2.png"
+        }
+    ],
+    "Banner": [
+        {
+            "id": "1",
+            "img": "../img/slider-3.jpg",
+            "title": "New Arrival",
+            "title1":"Final Sale",
+            "text": "30% off Summer Vacation"
+        },
+        {
+            "id": "2",
+            "img": "../img/slider-4.jpg",
+            "title": "New Arrival",
+            "title1":"Final Sale",
+            "text": "30% off Summer Vacation"
+        }
+    ],
+    "Data": [
+        {
+            "id": "1",
+            "img": "../img/b2.jpg",
+            "title": "hotel plaza",
+            "Text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "button": "Read More"
+        },
+        {
+            "id": "2",
+            "img": "../img/bg.jpg",
+            "title": "hotel plaza",
+            "Text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "button": "Read More"
+        },
+        {
+            "id": "3",
+            "img": "../img/bg1.jpg",
+            "title": "hotel plaza",
+            "Text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "button": "Read More"
+        },
+        {
+            "id": "4",
+            "img": "../img/bgnew.jpg",
+            "title": "hotel plaza",
+            "Text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "button": "Read More"
+        },
+        {
+            "id": "5",
+            "img": "../img/b2.jpg",
+            "title": "hotel plaza",
+            "Text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "button": "Read More"
+        },
+        {
+            "id": "6",
+            "img": "../img/bg.jpg",
+            "title": "hotel plaza",
+            "Text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "button": "Read More"
+        },
+        {
+            "id": "7",
+            "img": "../img/bg1.jpg",
+            "title": "hotel plaza",
+            "Text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "button": "Read More"
+        },
+        {
+            "id": "8",
+            "img": "../img/bgnew.jpg",
+            "title": "hotel plaza",
+            "Text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "button": "Read More"
+        }
+    ]
+}
