@@ -31,16 +31,18 @@ const NavbarMain = () => {
     return (
         <>
             <header className={colorChange ? 'Navbar colorChange' : 'Navbar'}>
+                <div className=' container'>
+
                 <nav>
                     <ul ref={navRef} className='d-flex'>
-                        <li className='d-inline-block mx-4 my-2'> <NavLink exact activeclassName="active" to="/" className='text-decoration-none' >Home</NavLink></li>
-                        <li className='d-inline-block mx-4 my-2'> <NavLink activeclassName="active" to="Product" className='text-decoration-none'>Product Details</NavLink></li>
-                        <li className='d-inline-block mx-4 my-2'> <NavLink activeclassName="active" to="About" className='text-decoration-none'>About</NavLink></li>
-                        <li className='d-inline-block mx-4 my-2'> <NavLink activeclassName="active" to="Collection" className='text-decoration-none'>Collection</NavLink></li>
-                        <li className='d-inline-block mx-4 my-2'> <NavLink activeclassName="active" to="Blog" className='text-decoration-none'>Blog</NavLink></li>
+                        <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="/home" >Home</NavLink></li>
+                        <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="Product">Product Details</NavLink></li>
+                        <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="About">About</NavLink></li>
+                        <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="Collection">Collection</NavLink></li>
+                        <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="Blog">Blog</NavLink></li>
+                        <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="Blog">Contact</NavLink></li>
                         <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                             <CloseIcon />
-
                         </button>
                     </ul>
                     <Logo />
@@ -52,6 +54,7 @@ const NavbarMain = () => {
                         <LocalMallIcon />
                     </div>
                 </nav>
+                </div>
                 <button className='nav-btn' onClick={showNavbar}>
                     <DehazeIcon />
                 </button>

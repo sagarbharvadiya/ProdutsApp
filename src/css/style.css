@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -15,7 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     background: transparent;
     position: absolute;
     top: 0;
@@ -26,19 +27,23 @@ header {
 
 }
 
-.Navbar{
+.Navbar {
     background-color: transparent;
     position: fixed;
     width: 100%;
 }
-  
-.Navbar.colorChange{
+
+.Navbar.colorChange {
     background-color: #fff;
     color: #000;
 }
-.Navbar.colorChange svg, .Navbar.colorChange a, .Navbar.colorChange .logo img{
+
+.Navbar.colorChange svg,
+.Navbar.colorChange a,
+.Navbar.colorChange .logo img {
     color: #000 !important;
 }
+
 header .nav-btn {
     padding: 5px;
     cursor: pointer;
@@ -62,42 +67,231 @@ nav {
 
 }
 
-.icons {
-    transform: translateX(129px);
+.logo {
+    background-color: #171216;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
+
+.logo img {
+    object-fit: cover;
+}
+
+/* .icons {
+    transform: translateX(129px);
+} */
 
 nav ul {
     margin: 0px !important;
     align-items: center;
+    padding: 0px !important;
 }
 
 nav ul li a {
     color: #fff;
+    text-decoration: none;
 }
+
+.active-style {
+    border-bottom: 1px solid red;
+    color: #696969;
+}
+
 nav ul li a:hover {
     color: #fff;
 
 }
-
 
 svg {
     color: #fff;
     margin: 0px 5px;
 }
 
-.cards img {
-    max-width: 200px;
-}
+/* Banner section  */
 
 .carousel-item {
     display: block !important;
     opacity: 1 !important;
 }
-.cards svg{
+
+
+/* Product section  */
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.cards {
+    position: relative;
+    width: 260px;
+    height: 370px;
+    cursor: pointer;
+}
+
+.cards img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.description {
+    position: absolute;
+    z-index: 8;
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
+    visibility: hidden;
+    width: 90%;
+    height: 85%;
+    transition: all .4s ease 0s;
+    transform: scale(.85);
+    opacity: 0;
+    background: hsla(0, 0%, 100%, .9) none repeat scroll 0 0;
+}
+
+.product-img-badges {
+    position: absolute;
+    z-index: 9;
+    top: 12px;
+    right: 12px;
+}
+
+.product-img-badges span {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+    display: block;
+    margin-bottom: 10px;
+    padding: 3px 11px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.product-img-badges span.pink {
+    background-color: #fa6bff;
+}
+
+.product-img-badges span.purple {
+    background-color: #a749ff;
+}
+
+.product-content-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transition: all .4s ease 0s;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cards:hover .description {
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.cards svg {
     color: #000;
     cursor: pointer;
 }
 
+.cards .icon svg {
+    padding: 8px;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    margin: 0 3px;
+    transition: all .4s ease-in-out;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    background: none;
+    background-color: #a749ff;
+}
+
+.cards .icon svg:hover {
+    background-color: #fa6bff;
+}
+
+/* Subscribe section */
+.Subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Subscribe h1 {
+    font-size: 48px;
+    margin: 0 0 23px;
+    color: #010101;
+}
+
+.Subscribe p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    color: #696969;
+
+}
+
+.Subscribe form {
+    width: 400px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.Subscribe form input {
+    height: 46px;
+    text-align: center;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid #e2e2e2;
+    background: transparent;
+    outline: none;
+}
+
+input {
+    font-size: 14px;
+    width: 100%;
+    color: #333;
+    box-shadow: none;
+}
+
+.Subscribe form button {
+    margin-top: 40px;
+    font-weight: 500;
+    line-height: 1;
+    width: auto;
+    height: auto;
+    padding: 17px 55px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    background-color: #070508;
+}
+
+form button:hover {
+    background-color: #a749ff;
+}
+
+/* mediaQuery css start  */
 @media screen and (max-width:1024px) {
     header .nav-btn {
         visibility: visible;
@@ -106,8 +300,6 @@ svg {
         top: 0px;
         position: absolute;
     }
-
-
 
     header {
         display: block;
@@ -155,14 +347,16 @@ svg {
         background: #000;
         right: auto;
     }
-    .icons{
+
+    .icons {
         transform: none;
         -webkit-transform: none;
         -moz-transform: none;
         -ms-transform: none;
         -o-transform: none;
-}
-nav ul li a {
-    color: #000;
-}
+    }
+
+    nav ul li a {
+        color: #000;
+    }
 }

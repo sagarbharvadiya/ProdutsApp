@@ -8,11 +8,11 @@ const Logo = () => {
             <div className='logo'>
                 {HotelData.Logo.map((value) => {
                     return (
-                        <>
+                        <React.Fragment key={value.id}>
                             <a href='home'>
                                 <img id='myImage' src={value.img} alt="" key={value.id} />
                             </a>
-                        </>
+                        </React.Fragment>
                     )
                 })}
             </div>
