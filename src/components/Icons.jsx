@@ -6,10 +6,10 @@ import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 const Icons = () => {
     return (
         <>
-            <AddShoppingCartIcon />
-            <FavoriteBorderIcon />
-            <CompareArrowsIcon />
-            <RemoveRedEyeIcon />
+            <FavoriteBorderIcon titleAccess='Add to wishlist'/>
+            <AddShoppingCartIcon titleAccess='Add to cart'/>
+            <CompareArrowsIcon titleAccess='Add to compare'/>
+            <RemoveRedEyeIcon titleAccess='Quick view'/>
         </>
     )
 }
