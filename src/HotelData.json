@@ -186,21 +186,177 @@
             "type": "New"
         }
     ],
-    "Subscribe":[
+    "Subscribe": [
         {
             "id": "1",
             "heading": "Subscribe",
             "Text": "Subscribe to our newsletter to receive news on update",
             "btn": "SUBSCRIBE"
-        
         }
     ],
-    "footer":[
+    "footer": [
         {
-            "id":"1",
-            "img":"../img/logo-2.png",
-            "Text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, " 
-
+            "id": "1",
+            "img": "../img/logo-2.png",
+            "Text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+        }
+    ],
+    "productdetails": [
+        {
+            "id": "1",
+            "img": "../img/1.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
+        },
+        {
+            "id": "2",
+            "img": "../img/2.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
+        },
+        {
+            "id": "3",
+            "img": "../img/3.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
+        },
+        {
+            "id": "4",
+            "img": "../img/4.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
+        },
+        {
+            "id": "5",
+            "img": "../img/5.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
+        },
+        {
+            "id": "6",
+            "img": "../img/6.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
+        },
+        {
+            "id": "7",
+            "img": "../img/7.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
+        },
+        {
+            "id": "8",
+            "img": "../img/8.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
+        },
+        {
+            "id": "9",
+            "img": "../img/9.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
+        },
+        {
+            "id": "10",
+            "img": "../img/10.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
+        },
+        {
+            "id": "11",
+            "img": "../img/11.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
+        },
+        {
+            "id": "12",
+            "img": "../img/12.jpg",
+            "Text": "Lorem ipsum accessories one",
+            "price": "€2.79",
+            "delprice": "€3.1",
+            "details": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "cart-plus": "+",
+            "cart-m": "-",
+            "btn": "ADD TO CART",
+            "cat": "Categories : accessories",
+            "tag": "Tags : accessories"
         }
 
     ]

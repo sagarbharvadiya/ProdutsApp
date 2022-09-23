@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import Button from '@mui/material/Button';
 import HotelData from "../src/HotelData.json"
 import Icons from './components/Icons';
 import Subscribe from '../src/components/Subscribe.jsx';
+import { Link } from 'react-router-dom';
 
 const Hotel = () => {
+
   return (
     <>
       <section className='product'>
@@ -14,8 +16,10 @@ const Hotel = () => {
               return (
                 <React.Fragment key={value.id}>
                   <div className='col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 '>
-                    <div className='cards' key={value.id}>
-                      <img src={value.img} alt="" />
+                    <div className='cards'>
+                      <Link to={process.env.PUBLIC_URL + "/shop/product/" + HotelData.productdetails.id} >
+                        <img src={value.img} alt="" />
+                      </Link>
                       <div className='product-img-badges'>
                         <span className='pink'>{value.discount}</span>
                         <span className='purple'>{value.type}</span>
