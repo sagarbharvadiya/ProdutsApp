@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Hotel = () => {
 
+
   return (
     <>
       <section className='product'>
@@ -17,7 +18,7 @@ const Hotel = () => {
                 <React.Fragment key={value.id}>
                   <div className='col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 '>
                     <div className='cards'>
-                      <Link to={process.env.PUBLIC_URL + "/shop/product/" + HotelData.productdetails.id} >
+                      <Link data-item-id={value.id} to={process.env.PUBLIC_URL + "/shop/product/" + HotelData.productdetails.id} >
                         <img src={value.img} alt="" />
                       </Link>
                       <div className='product-img-badges'>

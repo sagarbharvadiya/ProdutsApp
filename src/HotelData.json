@@ -358,6 +358,53 @@
             "cat": "Categories : accessories",
             "tag": "Tags : accessories"
         }
-
+    ],
+    "about": [
+        {
+            "id": "1",
+            "title": "Who Are We",
+            "heading": "Welcome To Flone",
+            "p": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo consequat irure"
+        }
+    ],
+    "about-details": [
+        {
+            "id": "1",
+            "img": "../img/banner-1.jpg",
+            "heading": "Watches",
+            "text": "Starting at",
+            "price": "$99.00"
+        },
+        {
+            "id": "2",
+            "img": "../img/banner-2.jpg",
+            "heading": "Plog Bag",
+            "text": "Starting at",
+            "price": "$79.00"
+        },
+        {
+            "id": "3",
+            "img": "../img/banner-3.jpg",
+            "heading": "sunglass",
+            "text": "Starting at",
+            "price": "$29.00"
+        }
+    ],
+    "Our Vision":[
+        {
+            "id": "1",
+            "title": "Our Vision",
+            "p": "Flone provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth."
+        },
+        {
+            "id": "2",
+            "title": "Our Mission",
+            "p": "Flone provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth."
+        },
+        {
+            "id": "3",
+            "title": "Our Goal",
+            "p": "Flone provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth."
+        }
     ]
 }

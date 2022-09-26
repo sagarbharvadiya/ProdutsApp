@@ -27,7 +27,7 @@ const ProductDetails = () => {
                         {HotelData.productdetails.map((value) => {
                             return (
                                 <React.Fragment key={value.id}>
-                                    <div className='d-flex gap-5'>
+                                    <div className='d-flex gap-5 align-items-center'>
                                         <div className='img'>
                                             <img src={value.img} alt="" />
                                         </div>

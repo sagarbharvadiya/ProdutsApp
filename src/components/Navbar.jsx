@@ -30,13 +30,13 @@ const NavbarMain = () => {
 
     return (
         <>
-            <header className={colorChange ? 'Navbar colorChange' : 'Navbar'}>
                 <div className=' container'>
+            <header className={colorChange ? 'Navbar colorChange' : 'Navbar'}>
 
                 <nav>
                     <ul ref={navRef} className='d-flex'>
                         <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="/home" >Home</NavLink></li>
-                        <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="Product">Product Details</NavLink></li>
+                        <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="shop/product">Product Details</NavLink></li>
                         <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="About">About</NavLink></li>
                         <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="Collection">Collection</NavLink></li>
                         <li className='d-inline-block mx-3 my-2'> <NavLink  className={(navData) => (navData.isActive ? "active-style" : ' ')} to="Blog">Blog</NavLink></li>
@@ -54,11 +54,11 @@ const NavbarMain = () => {
                         <LocalMallIcon />
                     </div>
                 </nav>
-                </div>
                 <button className='nav-btn' onClick={showNavbar}>
                     <DehazeIcon />
                 </button>
             </header>
+                </div>
 
 
         </>
