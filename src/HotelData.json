@@ -390,7 +390,7 @@
             "price": "$29.00"
         }
     ],
-    "Our Vision":[
+    "Our Vision": [
         {
             "id": "1",
             "title": "Our Vision",
@@ -406,5 +406,104 @@
             "title": "Our Goal",
             "p": "Flone provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth."
         }
+    ],
+    "Counter": [
+        {
+            "id": "1",
+            "price": "360",
+            "text": "Project Done",
+            "img": "../img/portfolio.png"
+        },
+        {
+            "id": "2",
+            "price": "690",
+            "text": "Cups of Coffe",
+            "img": "../img/trophy1.png"
+        },
+        {
+            "id": "3",
+            "price": "100",
+            "text": "Branding ",
+            "img": "../img/light.png"
+        },
+        {
+            "id": "4",
+            "price": "420",
+            "text": "Happy Clients",
+            "img": "../img/smiling.png"
+        }
+    ],
+    "ourteam": [
+        {
+            "id": "1",
+            "img": "../img/team-1.jpg",
+            "title": "Mr.Mike Banding",
+            "post": "Manager",
+            "icon": "fa fa-linkedin",
+            "link": "https://twitter.com/"
+        },
+        {
+            "id": "2",
+            "img": "../img/team-2.jpg",
+            "title": "Mr.Peter Pan",
+            "post": "Developer",
+            "link": "https://twitter.com/"
+        },
+        {
+            "id": "3",
+            "img": "../img/team-3.jpg",
+            "title": "Ms.Sophia",
+            "post": "Designer",
+            "link": "https://twitter.com/"
+        },
+        {
+            "id": "4",
+            "img": "../img/team-4.jpg",
+            "title": "Mr.John Lee",
+            "post": "Chairman",
+            "link": "https://twitter.com/"
+        }
+    ],
+    "brand": [
+        {
+            "id": "1",
+            "img": "../img/brand-logo-1.png"
+        },
+        {
+            "id": "2",
+            "img": "../img/brand-logo-2.png"
+        },
+        {
+            "id": "3",
+            "img": "../img/brand-logo-3.png"
+        },
+        {
+            "id": "4",
+            "img": "../img/brand-logo-4.png"
+        },
+        {
+            "id": "5",
+            "img": "../img/brand-logo-5.png"
+        }
+    ],
+    "footernew": [
+       
+        {
+            "id": "1",
+            "title": "USEFUL LINKS",
+            "link": "Returns",
+            "link1": "Support Policy",
+            "link2": "Size guide",
+            "link3": "FAQs"
+        },
+        {
+            "id": "2",
+            "title": "FOLLOW US",
+            "link": "Facebook",
+            "link1": "Twitter",
+            "link2": "Instagram",
+            "link3": "Youtube"
+        }
+        
     ]
 }

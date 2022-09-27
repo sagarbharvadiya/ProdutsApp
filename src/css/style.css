@@ -325,7 +325,7 @@ form button:hover {
     align-items: center;
 }
 
-.product_details .top {
+.top {
     display: flex;
     align-items: center;
     text-align: center;
@@ -337,20 +337,35 @@ form button:hover {
     font-weight: 500;
     color: #5b5858;
 }
-.top a{
+
+.top a {
     text-decoration: none;
+}
+
+.top>span {
+    margin: 0 5px;
+
+}
+
+.top>span span {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .product_details .MuiRating-icon svg {
     color: #faaf00 !important;
 
 }
+
 .add_cart {
     display: flex;
     gap: 7px;
     margin: 20px 0px;
 }
-.add_cart input{
+
+.add_cart input {
     justify-content: center;
     width: 40px;
     padding: 8px;
@@ -358,33 +373,369 @@ form button:hover {
     align-items: center;
     text-align: center;
 }
+
 .categories {
     margin: 29px 0px;
 }
+
 .details div.del {
     margin: 40px 0px;
     border-bottom: 1px solid;
 }
-.product-icon{
+
+.product-icon {
     display: flex;
     justify-content: space-between;
 }
-.product-icon ul{
+
+.product-icon ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
-.product-icon ul svg{
+
+.product-icon ul svg {
     color: #333;
 }
-.img{
+
+.img {
     margin: 30px 0px;
 }
-.img>img{
+
+.img>img {
     width: 400px;
 }
+
+/* countdown section  */
+.count {
+    background-color: #f7f7f7;
+    margin-bottom: 0px;
+    padding: 100px 0;
+}
+
+.count-icon {
+    max-width: 100%;
+    position: relative;
+}
+
+.count-icon img {
+    width: 50px;
+}
+
+.single-count h2>span {
+    color: #a749ff;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 2px 0 2px;
+    display: inline-block;
+}
+
+.single-count span {
+    color: #333;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+/* about  section*/
+.about>.container {
+    padding-bottom: 95px;
+    padding-top: 10px;
+}
+
+.title h5 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+    letter-spacing: .3px;
+}
+
+.title h2 {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: .3px;
+    margin: 8px 0 30px;
+    color: #433f3f;
+    position: relative;
+    display: inline-block;
+    padding: 0 0 23px;
+    line-height: 1;
+}
+
+.title h2::before {
+    position: absolute;
+    background-color: #070508;
+    height: 3px;
+    width: 70px;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+
+}
+
+.title p {
+    font-size: 16px;
+    color: #4b4b4b;
+    line-height: 30px;
+    width: 66%;
+    margin: 0 auto;
+
+}
+
+.banner-area {
+    padding-bottom: 70px;
+}
+
+.single-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.single-banner a img {
+    width: 100%;
+    transition: all .5s ease 0s;
+    transform: scale(1);
+}
+
+a:hover {
+    color: #a749ff;
+}
+
+.single-banner:hover img {
+    transform: scale(1.2);
+}
+
+.single-banner .banner-content {
+    position: absolute;
+    top: 40px;
+    left: 36px;
+    content: "";
+}
+
+.single-banner .banner-content h3 {
+    font-family: Cormorant Garamond;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+    color: #915342;
+}
+
+.single-banner .banner-content h4 {
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 3px 0 58px;
+    color: #010101;
+}
+
+.single-banner .banner-content h4 span {
+    font-size: 20px;
+    line-height: 1;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    margin: 0 0 0 2px;
+    color: #935644;
+
+}
+
+.single-banner .banner-content svg {
+    font-size: 14px;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    color: #97584a;
+    border: 2px solid #97584a;
+    border-radius: 100%;
+}
+
+.about-mission-area {
+    padding-bottom: 30px;
+}
+
+.single-mission {
+    margin-bottom: 30px;
+}
+
+.single-mission h3 {
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    margin: 0 0 20px;
+    text-transform: capitalize;
+    line-height: 22px;
+    color: #333;
+}
+
+.single-mission p {
+    margin: 0;
+}
+
+.counter {
+    position: relative;
+}
+
+.single-count .count-icon img {
+    font-size: 50px;
+    line-height: 1;
+    display: inline-block;
+}
+
+.our-team {
+    padding-top: 95px;
+    padding-bottom: 70px;
+}
+
+.section-title-2 {
+    margin-bottom: 60px;
+}
+
+.section-title-2 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    color: #000;
+}
+
+.section-title-2 h2::before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    margin: 0 auto;
+    content: "";
+    background-color: #000;
+}
+
+.section-title-2 p {
+    margin: 0;
+    color: #333;
+}
+
+.team-wrapper {
+    background-color: #f7f7f7;
+    margin-bottom: 30px;
+}
+
+.team-wrapper .team-img {
+    position: relative;
+}
+
+.team-wrapper .team-img img {
+    width: 100%;
+}
+
+.team-wrapper .team-img .team-action {
+    background: #fff none repeat scroll 0 0;
+    left: 0;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 70%;
+    transform: translateY(-50%);
+    transition: all .6s ease 0s;
+    width: 100%;
+    z-index: 5;
+}
+
+.team-wrapper .team-img .team-action a {
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    /* width: 30px; */
+    margin: 0 3px;
+}
+
+.team-action a .facebook {
+    border: 1px solid #3b5998;
+    background-color: #3b5998;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.team-action a .facebook:hover {
+    background-color: transparent;
+    color: #3b5998;
+}
+
+.team-wrapper .team-img .team-action a .twitter {
+    border: 1px solid #55acee;
+    background-color: #55acee;
+    border-radius: 50px;
+    color: #fff;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.team-wrapper .team-img .team-action a .instagram {
+    border: 1px solid #c32aa3;
+    background-color: #c32aa3;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.team-wrapper .team-img .team-action a .instagram:hover {
+    background-color: transparent;
+    color: #c32aa3;
+}
+
+.team-action a .twitter:hover {
+    background-color: transparent;
+    color: #55acee;
+}
+
+.team-action a svg {
+    color: #010101;
+    display: flex;
+}
+
+.team-wrapper .team-content {
+    padding: 20px 10px 23px;
+}
+
+.team-wrapper .team-content h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 3px;
+    text-transform: capitalize;
+}
+
+.team-wrapper .team-content span {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.team-wrapper:hover .team-action {
+    top: 50%;
+    opacity: 1;
+}
+
+.brand-logo-area {
+    padding-bottom: 70px;
+}
+
+
 /* footer section  */
 
 footer {
@@ -453,6 +804,99 @@ footer p.text {
     color: #fff;
     margin: 0px;
     font-weight: 400;
+}
+
+/* footer new section  */
+.footer .container {
+    background-color: #f6f6f8;
+    position: relative;
+    padding-bottom: 70px;
+    padding-top: 100px;
+
+}
+
+.copyright {
+    margin-bottom: 30px;
+}
+
+.copyright .footer-logo {
+    margin-top: 41px;
+    margin-bottom: 12px;
+}
+
+.copyright p,
+.copyright p a {
+    color: #313131;
+}
+
+.copyright p {
+    letter-spacing: .9px;
+}
+
+.footer-widget {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.footer-widget .footer-title h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 0 16px;
+    color: #313131;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: outside none none;
+}
+
+.footer-widget .footer-list ul li {
+    margin: 0 0 11px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-widget .footer-list ul li a {
+    text-decoration: none;
+    letter-spacing: .3px;
+    color: #5d5d5d;
+}
+
+.footer-widget .subscribe-style p {
+    margin: 0 0 20px;
+    color: #7a7a7a;
+}
+
+.footer-widget .subscribe-style .subscribe-form input {
+    font-size: 13px;
+    padding: 2px 10px 2px 0;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    background: transparent;
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer-widget .subscribe-style .subscribe-form .clear button {
+    font-size: 14px;
+    line-height: 1;
+    width: auto;
+    height: auto;
+    margin: 13px 0 0;
+    padding: 0 0 1px;
+    text-transform: uppercase;
+    color: #313131;
+    border: none;
+    border-bottom: 2px solid #9b9b9c;
+    background: none;
 }
 
 /* mediaQuery css start  */
