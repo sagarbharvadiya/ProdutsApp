@@ -29,7 +29,7 @@ const ProductDetails = () => {
                                 <React.Fragment key={value.id}>
                                     <div className='d-flex gap-5 align-items-center'>
                                         <div className='img'>
-                                            <img src={value.img} alt="" />
+                                            <img className='default-img' src={value.img} alt="" />
                                         </div>
                                         <div className='details'>
                                             <h6>{value.Text}</h6>

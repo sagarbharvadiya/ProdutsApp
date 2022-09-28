@@ -13,9 +13,8 @@ const CollectionSize = () => {
                                     <li>
                                         <div className='sidebar-widget-list-left'>
                                             <button className=''>
-                                                <span className='checkmark'>
+                                                <span className='checkmark'></span>
                                                     {value.size}
-                                                </span>
                                             </button>
                                         </div>
                                     </li>

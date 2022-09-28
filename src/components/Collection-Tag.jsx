@@ -5,15 +5,13 @@ const CollectionTag = () => {
         <>
             <div className='sidebar-widget mt-50'>
                 <h4 className='pro-sidebar-title'>Tag</h4>
-                <div className='sidebar-widget-list mt-20'>
+                <div className='sidebar-widget-tag'>
                     <ul>
                         {HotelData.Collecion.Tag.map((value) => {
                             return (
                                 <React.Fragment key={value.id}>
-                                    <li>
-                                        <div className='sidebar-widget-list-left'>
+                                    <li> 
                                             <button>{value.name}</button>
-                                        </div>
                                     </li>
                                 </React.Fragment>
                             )

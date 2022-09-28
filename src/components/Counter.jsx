@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HotelData from '../HotelData.json'
 // import Countdown from "react-countdown";
+import CountUp from "react-countup";
+// import VisibilitySensor from "react-visibility-sensor";
 const Counter = () => {
+
     return (
         <>
             <section className='counter'>
@@ -17,7 +20,12 @@ const Counter = () => {
                                                     <img className='count-img' src={value.img} alt="" />
                                                 </div>
                                                 <h2 className='countdown'>
-                                                    <span>{value.price}</span>
+                                                    <CountUp
+                                                        start={value.price - 60}
+                                                        end={value.price}
+                                                        duration={2.0}
+                                                    >
+                                                    </CountUp>
                                                 </h2>
                                                 <span>{value.text}</span>
                                             </div>

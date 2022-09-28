@@ -490,7 +490,7 @@
         "Categories": [
             {
                 "id": "1",
-                " all": " All Categories"
+                "all": "All Categories"
             },
             {
                 "id": "2",
@@ -706,8 +706,207 @@
                 "id": "24",
                 "name": "Christmas"
             }
+        ],
+        "CollecionItem": [
+            {
+                "id": "1",
+                "img": "../img/fasion/1.jpg",
+                "img1": "../img/2.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "2",
+                "img": "../img/fasion/2.jpg",
+                "img1": "../img/1.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "3",
+                "img": "../img/fasion/3.jpg",
+                "img1": "../img/4.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "4",
+                "img": "../img/fasion/4.jpg",
+                "img1": "../img/3.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "5",
+                "img": "../img/fasion/5.jpg",
+                "img1": "../img/10.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "6",
+                "img": "../img/fasion/6.jpg",
+                "img1": "../img/4.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "7",
+                "img": "../img/fasion/7.jpg",
+                "img1": "../img/6.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "8",
+                "img": "../img/fasion/8.jpg",
+                "img1": "../img/3.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "9",
+                "img": "../img/fasion/9.jpg",
+                "img1": "../img/8.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "10",
+                "img": "../img/10.jpg",
+                "img1": "../img/5.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "11",
+                "img": "../img/fasion/25.jpg",
+                "img1": "../img/3.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "12",
+                "img": "../img/fasion/26.jpg",
+                "img1": "../img/8.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "13",
+                "img": "../img/fasion/27.jpg",
+                "img1": "../img/5.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "14",
+                "img": "../img/fasion/28.jpg",
+                "img1": "../img/8.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            },
+            {
+                "id": "15",
+                "img": "../img/fasion/29.jpg",
+                "img1": "../img/5.jpg",
+                "del-price": "€3.1",
+                "price": "€2.79",
+                "Text": "Lorem Ipsum jacket",
+                "discount": "-10%"
+            }
         ]
     },
+    "blog": [
+        {
+            "id": "1",
+            "img": "../img/blog/blog-9.jpg",
+            "li":"22 April, 2020",
+            "li1":"4",
+            "title":"Lorem ipsum blog post",
+            "text":"Aenean sollicitudin, lorem quis on endum uctor nisi elitod the cona sequat ipsum, necas sagittis sem natoque nibh id penatibus",
+            "btn":"Read More",
+            "share":"Share :"
+        },
+        {
+            "id": "2",
+            "img": "../img/blog/blog-8.jpg",
+            "li":"22 April, 2020",
+            "li1":"4",
+            "title":"Lorem ipsum blog post",
+            "text":"Aenean sollicitudin, lorem quis on endum uctor nisi elitod the cona sequat ipsum, necas sagittis sem natoque nibh id penatibus",
+            "btn":"Read More",
+            "share":"Share :"
+        },
+        {
+            "id": "3",
+            "img": "../img/blog/blog-7.jpg",
+            "li":"22 April, 2020",
+            "li1":"4",
+            "title":"Lorem ipsum blog post",
+            "text":"Aenean sollicitudin, lorem quis on endum uctor nisi elitod the cona sequat ipsum, necas sagittis sem natoque nibh id penatibus",
+            "btn":"Read More",
+            "share":"Share :"
+        },
+        {
+            "id": "4",
+            "img": "../img/blog/blog-6.jpg",
+            "li":"22 April, 2020",
+            "li1":"4",
+            "title":"Lorem ipsum blog post",
+            "text":"Aenean sollicitudin, lorem quis on endum uctor nisi elitod the cona sequat ipsum, necas sagittis sem natoque nibh id penatibus",
+            "btn":"Read More",
+            "share":"Share :"
+        },
+        {
+            "id": "5",
+            "img": "../img/blog/blog-5.jpg",
+            "li":"22 April, 2020",
+            "li1":"4",
+            "title":"Lorem ipsum blog post",
+            "text":"Aenean sollicitudin, lorem quis on endum uctor nisi elitod the cona sequat ipsum, necas sagittis sem natoque nibh id penatibus",
+            "btn":"Read More",
+            "share":"Share :"
+        },
+        {
+            "id": "6",
+            "img": "../img/blog/blog-4.jpg",
+            "li":"22 April, 2020",
+            "li1":"4",
+            "title":"Lorem ipsum blog post",
+            "text":"Aenean sollicitudin, lorem quis on endum uctor nisi elitod the cona sequat ipsum, necas sagittis sem natoque nibh id penatibus",
+            "btn":"Read More",
+            "share":"Share :"
+        }
+    ],
     "footernew": [
         {
             "id": "1",

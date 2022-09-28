@@ -14,9 +14,8 @@ const CollectionColors = () => {
                                     <li>
                                         <div className='sidebar-widget-list-left'>
                                             <button className=''>
-                                                <span className='checkmark'>
-                                                    {value.color}
-                                                </span>
+                                                <span className='checkmark'></span>
+                                                {value.color}
                                             </button>
                                         </div>
                                     </li>

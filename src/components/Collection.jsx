@@ -1,6 +1,7 @@
 import React from 'react'
 import CollectionCategories from './Collection-Categories'
 import CollectionColors from './Collection-Colors'
+import CollectionItem from './Collection-item'
 import { CollectionSearch } from './Collection-search'
 import CollectionSize from './Collection-Size'
 import CollectionTag from './Collection-Tag'
@@ -35,6 +36,14 @@ const Collections = () => {
                                 <CollectionSize />
                                 {/*  */}
                                 <CollectionTag />
+                            </div>
+                        </div>
+                        <div className='col-lg-9 order-1 order-lg-2'>
+                            <div className='shop-bottom-area mt-35'>
+                                <div className='row grid three-column'>
+                                    {/*  */}
+                                    <CollectionItem />
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -15,9 +15,8 @@ const CollectionCategories = () => {
                                     <li>
                                         <div className='sidebar-widget-list-left'>
                                             <button className=''>
-                                                <span className='checkmark'>
-                                                   {value.all}
-                                                </span>
+                                                <span className='checkmark'></span>
+                                                {value.all}
                                             </button>
                                         </div>
                                     </li>
