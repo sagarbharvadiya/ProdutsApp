@@ -741,6 +741,7 @@ a:hover {
 footer {
     background: #000;
     padding-top: 80px;
+    display: none;
 }
 
 .footer-data {
@@ -848,15 +849,16 @@ footer p.text {
 
 ul {
     margin: 0;
-    padding: 0;
+
     list-style: outside none none;
+    padding: 0px !important;
 }
 
 .footer-widget .footer-list ul li {
     margin: 0 0 11px;
 }
 
-a {
+.footer-logo a {
     text-decoration: none;
 }
 
@@ -864,6 +866,10 @@ a {
     text-decoration: none;
     letter-spacing: .3px;
     color: #5d5d5d;
+}
+
+.footer-widget .footer-list ul li a:hover {
+    color: #a749ff;
 }
 
 .footer-widget .subscribe-style p {

@@ -486,8 +486,229 @@
             "img": "../img/brand-logo-5.png"
         }
     ],
+    "Collecion": {
+        "Categories": [
+            {
+                "id": "1",
+                " all": " All Categories"
+            },
+            {
+                "id": "2",
+                "all": "Fashion"
+            },
+            {
+                "id": "3",
+                "all": "Man"
+            },
+            {
+                "id": "4",
+                "all": "Woman"
+            },
+            {
+                "id": "5",
+                "all": "Electronics"
+            },
+            {
+                "id": "6",
+                "all": "Furniture"
+            },
+            {
+                "id": "7",
+                "all": "Plant"
+            },
+            {
+                "id": "8",
+                "all": "Organic Food"
+            },
+            {
+                "id": "9",
+                "all": "Flower"
+            },
+            {
+                "id": "10",
+                "all": "Book"
+            },
+            {
+                "id": "11",
+                "all": "Cosmetics"
+            },
+            {
+                "id": "12",
+                "all": "Accessories"
+            },
+            {
+                "id": "13",
+                "all": "Kids"
+            },
+            {
+                "id": "14",
+                "all": "Auto parts"
+            },
+            {
+                "id": "15",
+                "all": "Cakes"
+            },
+            {
+                "id": "16",
+                "all": "Pet Food"
+            },
+            {
+                "id": "17",
+                "all": "Medical"
+            },
+            {
+                "id": "18",
+                "all": "Black Friday"
+            },
+            {
+                "id": "19",
+                "all": "Christmas"
+            }
+        ],
+        "Color": [
+            {
+                "id": "1",
+                "color": " All Colors"
+            },
+            {
+                "id": "2",
+                "color": "White"
+            },
+            {
+                "id": "3",
+                "color": "Black"
+            },
+            {
+                "id": "4",
+                "color": "Brown"
+            },
+            {
+                "id": "5",
+                "color": "Blue"
+            }
+        ],
+        "Size": [
+            {
+                "id": "1",
+                "size": "All Sizes"
+            },
+            {
+                "id": "2",
+                "size": "X"
+            },
+            {
+                "id": "3",
+                "size": "M"
+            },
+            {
+                "id": "4",
+                "size": "XL"
+            },
+            {
+                "id": "5",
+                "size": "XXL"
+            }
+        ],
+        "Tag": [
+            {
+                "id": "1",
+                "name": "Fasion"
+            },
+            {
+                "id": "2",
+                "name": "Man"
+            },
+            {
+                "id": "3",
+                "name": "Jacket"
+            },
+            {
+                "id": "4",
+                "name": "Full Sleeve"
+            },
+            {
+                "id": "5",
+                "name": "Women"
+            },
+            {
+                "id": "6",
+                "name": "Coat"
+            },
+            {
+                "id": "7",
+                "name": "Top"
+            },
+            {
+                "id": "8",
+                "name": "Sleveless"
+            },
+            {
+                "id": "9",
+                "name": "Electronics"
+            },
+            {
+                "id": "10",
+                "name": "Furniture"
+            },
+            {
+                "id": "11",
+                "name": "Plant"
+            },
+            {
+                "id": "12",
+                "name": "Organic Food"
+            },
+            {
+                "id": "13",
+                "name": "Flower"
+            },
+            {
+                "id": "14",
+                "name": "Book"
+            },
+            {
+                "id": "15",
+                "name": "Cosmetics"
+            },
+            {
+                "id": "16",
+                "name": "Accessories"
+            },
+            {
+                "id": "17",
+                "name": "Handmade"
+            },
+            {
+                "id": "18",
+                "name": "Kids"
+            },
+            {
+                "id": "19",
+                "name": "Auto Parts"
+            },
+            {
+                "id": "20",
+                "name": "Cakes"
+            },
+            {
+                "id": "21",
+                "name": "Pet Food"
+            },
+            {
+                "id": "22",
+                "name": "Medical"
+            },
+            {
+                "id": "23",
+                "name": "Blak Friday"
+            },
+            {
+                "id": "24",
+                "name": "Christmas"
+            }
+        ]
+    },
     "footernew": [
-       
         {
             "id": "1",
             "title": "USEFUL LINKS",
@@ -504,6 +725,5 @@
             "link2": "Instagram",
             "link3": "Youtube"
         }
-        
     ]
 }

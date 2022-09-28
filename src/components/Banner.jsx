@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import HotelData from "../HotelData.json";
 import Button from '@mui/material/Button';
 
@@ -10,7 +10,7 @@ const Banner = () => {
 
     return (
         <>
-            <div className='container'>
+            <div className='container p-0'>
                 <AwesomeSlider className=''>
                     {HotelData.Banner.map((value) => {
                         return (

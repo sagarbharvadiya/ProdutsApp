@@ -38,7 +38,7 @@ const NavbarMain = () => {
                             <li className='d-inline-block mx-3 my-2'> <NavLink className={(navData) => (navData.isActive ? "active-style" : ' ')} to="/home" >Home</NavLink></li>
                             <li className='d-inline-block mx-3 my-2'> <NavLink className={(navData) => (navData.isActive ? "active-style" : ' ')} to="shop/product">Product Details</NavLink></li>
                             <li className='d-inline-block mx-3 my-2'> <NavLink className={(navData) => (navData.isActive ? "active-style" : ' ')} to="About">About</NavLink></li>
-                            <li className='d-inline-block mx-3 my-2'> <NavLink className={(navData) => (navData.isActive ? "active-style" : ' ')} to="Collection">Collection</NavLink></li>
+                            <li className='d-inline-block mx-3 my-2'> <NavLink className={(navData) => (navData.isActive ? "active-style" : ' ')} to="collection">Collection</NavLink></li>
                             <li className='d-inline-block mx-3 my-2'> <NavLink className={(navData) => (navData.isActive ? "active-style" : ' ')} to="Blog">Blog</NavLink></li>
                             <li className='d-inline-block mx-3 my-2'> <NavLink className={(navData) => (navData.isActive ? "active-style" : ' ')} to="Contact">Contact</NavLink></li>
                             <button className='nav-btn nav-close-btn' onClick={showNavbar}>

@@ -11,14 +11,14 @@ const Footernew = () => {
               <div className='footer-logo'>
                 <a href={"/"}>
                   <img src={logo} alt="" />
-                  <p>Copyright: <span>©{new Date().getFullYear()} Flone.</span>All Rights Reserved.</p>
+                  <p><span>©{new Date().getFullYear()} Flone.</span>All Rights Reserved.</p>
                 </a>
               </div>
             </div>
           </div>
           {HotelData.footernew.map((value) => {
             return (
-              <React.Fragment>
+              <React.Fragment key={value.id}>
                 <div className='col-lg-2 col-sm-4'>
                   <div className='footer-widget'>
                     <div className='footer-title'>
@@ -38,7 +38,7 @@ const Footernew = () => {
             )
           })
           }
-          <div className='col-lg-4 col-sm-6'>
+          <div className='col-lg-6 col-sm-6'>
             <div className='footer-widget mb-30 ml-70 '>
               <div className='footer-title'>
                 <h3>SUBSCRIBE</h3>
@@ -49,10 +49,10 @@ const Footernew = () => {
                   <div className='subscribe-form'>
                     <div className='mc-form'>
                       <div>
-                        <input id="mc-form-email" class="email" type="email" placeholder="Enter your email address..." />
+                        <input id="mc-form-email" className="email" type="email" placeholder="Enter your email address..." />
                       </div>
                       <div className='clear'>
-                        <button class="button">SUBSCRIBE</button>
+                        <button className="button">SUBSCRIBE</button>
                       </div>
                     </div>
                   </div>
