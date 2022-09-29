@@ -4,6 +4,7 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
+import { Link } from 'react-router-dom';
 const CollectionItem = () => {
     return (
         <>
@@ -13,11 +14,11 @@ const CollectionItem = () => {
                         <div className='col-xl-4 col-sm-6 '>
                             <div className='product-wrap mb-25'>
                                 <div className='product-img'>
-                                    <a href="/">
-                                      
+                                    <Link to={`/collection/${value.id}`}>
+
                                         <img className='default-img' src={value.img} alt="" />
-                                            <img className='hover-img' src={value.img1} alt="" />
-                                    </a>
+                                        <img className='hover-img' src={value.img1} alt="" />
+                                    </Link>
                                     <div className='product-img-badges'>
                                         <span className='pink'>-{value.discount}</span>
                                     </div>
