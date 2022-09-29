@@ -4,11 +4,11 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
-import HotelData from '../HotelData.json'
+import Data from '../../Data.json'
 
 const CollectionFull = () => {
     const { productId } = useParams()
-    const thisProduct = HotelData.Collecion.CollecionItem.find(prod => prod.id === productId)
+    const thisProduct = Data.Collecion.CollecionItem.find(prod => prod.id === productId)
     return (
         <>
             <div className=' container'>
@@ -16,8 +16,8 @@ const CollectionFull = () => {
                     <div className='col-xl-4 col-sm-6 '>
                         <div className='product-wrap mb-25'>
                             <div className='product-img'>
-                                    <img className='default-img' src={thisProduct.img} alt="" />
-                                    {/* <img className='hover-img' src={thisProduct.img1} alt="" /> */}
+                                <img className='default-img' src={thisProduct.img} alt="" />
+                                {/* <img className='hover-img' src={thisProduct.img1} alt="" /> */}
                                 <div className='product-img-badges'>
                                     <span className='pink'>-{thisProduct.discount}</span>
                                 </div>

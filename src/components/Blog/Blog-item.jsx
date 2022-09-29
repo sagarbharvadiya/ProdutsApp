@@ -1,5 +1,5 @@
 import React from 'react'
-import HotelData from '../HotelData.json'
+import Data from '../../Data.json'
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -23,7 +23,7 @@ const BlogItem = () => {
                         <div className='col-lg-12'>
                             <div className='mr-20'>
                                 <div className='row'>
-                                    {HotelData.blog.map((value) => {
+                                    {Data.blog.map((value) => {
                                         return (
                                             <React.Fragment key={value.id}>
                                                 <div className='col-lg-4 col-md-6 col-sm-12'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Collections from '../components/Collection'
+import Collections from '../components/Collections/Collection'
 
 const Collection = () => {
   return (

@@ -1,12 +1,12 @@
 import React from 'react'
-import HotelData from '../HotelData.json'
+import Data from '../../Data.json'
 const Subscribe = () => {
     return (
         <>
             <section className='Subscribe'>
                 <div className=' container'>
                     <div className='row'>
-                        {HotelData.Subscribe.map((value) => {
+                        {Data.Subscribe.map((value) => {
                             return (
                                 <React.Fragment key={value.id}>
                                     <h1>{value.heading}</h1>

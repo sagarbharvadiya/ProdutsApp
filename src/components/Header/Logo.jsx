@@ -1,12 +1,12 @@
 import React from 'react'
-import HotelData from '../HotelData.json'
+import Data from '../../Data.json'
 
 const Logo = () => {
 
     return (
         <>
             <div className='logo'>
-                {HotelData.Logo.map((value) => {
+                {Data.Logo.map((value) => {
                     return (
                         <React.Fragment key={value.id}>
                             <a href='home'>

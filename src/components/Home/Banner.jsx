@@ -1,5 +1,5 @@
 import React from 'react'
-import HotelData from "../HotelData.json";
+import Data from "../../Data.json";
 import Button from '@mui/material/Button';
 
 import AwesomeSlider from 'react-awesome-slider';
@@ -12,7 +12,7 @@ const Banner = () => {
         <>
             <div className='container p-0'>
                 <AwesomeSlider className=''>
-                    {HotelData.Banner.map((value) => {
+                    {Data.Banner.map((value) => {
                         return (
                             <React.Fragment key={value.id}>
                                 <div className='position-relative'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import HotelData from '../HotelData.json'
+import Data from '../../Data.json'
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
@@ -29,7 +29,7 @@ const Brand = () => {
                             }}
                             modules={[Autoplay, Navigation]}
                             className="mySwiper"
-                        >{HotelData.brand.map((value) => {
+                        >{Data.brand.map((value) => {
                             return (
                                 <React.Fragment key={value.id}>
                                     <SwiperSlide><img src={value.img} alt="" /></SwiperSlide>

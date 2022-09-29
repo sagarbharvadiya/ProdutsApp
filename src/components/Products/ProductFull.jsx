@@ -8,12 +8,12 @@ import PinterestIcon from '@mui/icons-material/Pinterest';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { useParams } from "react-router-dom"
-import HotelData from '../HotelData.json'
+import Data from '../../Data.json'
 
 
 const ProductFull = () => {
     const { productId } = useParams()
-    const thisProduct = HotelData.productdetails.find(prod => prod.id === productId)
+    const thisProduct = Data.productdetails.find(prod => prod.id === productId)
 
     return (
         <>

@@ -1,5 +1,5 @@
 import React from 'react'
-import HotelData from '../HotelData.json'
+import Data from '../../Data.json';
 const CollectionSize = () => {
     return (
         <>
@@ -7,7 +7,7 @@ const CollectionSize = () => {
                 <h4 className='pro-sidebar-title'>size</h4>
                 <div className='sidebar-widget-list mt-20'>
                     <ul>
-                        {HotelData.Collecion.Size.map((value) => {
+                        {Data.Collecion.Size.map((value) => {
                             return (
                                 <React.Fragment key={value.id}>
                                     <li>

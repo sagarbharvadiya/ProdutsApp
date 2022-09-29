@@ -1,10 +1,10 @@
 import React from 'react'
-import HotelData from '../HotelData.json'
-import Aboutdetails from '../components/About-details'
-import Ourvision from '../components/Ourvision'
-import Counter from '../components/Counter'
-import Ourteam from '../components/Ourteam'
-import Footernew from '../components/Footernew'
+import Data from '../Data.json'
+import Aboutdetails from '../components/About/About-details'
+import Ourvision from '../components/About/Ourvision'
+import Counter from '../components/About/Counter'
+import Ourteam from '../components/About/Ourteam'
+
 const About = () => {
   return (
     <>
@@ -23,7 +23,7 @@ const About = () => {
       <section className='about'>
         <div className='container'>
           <div className='row'>
-            {HotelData.about.map((value) => {
+            {Data.about.map((value) => {
               return (
                 <React.Fragment key={value.id}>
                   <div className='col-md-12'>
@@ -44,8 +44,7 @@ const About = () => {
         <Counter />
         <Ourteam />
       </section>
-      <Footernew/>
-
+      
     </>
   )
 }

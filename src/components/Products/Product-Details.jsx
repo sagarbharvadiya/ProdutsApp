@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import HotelData from '../HotelData.json'
+import React from 'react'
+import Data from '../../Data.json'
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
 import Addcart from './Addcart';
@@ -25,7 +25,7 @@ const ProductDetails = () => {
                             <span> /</span>
                             <span to="product">SHOP PRODUCT</span>
                         </div>
-                        {HotelData.productdetails.map((value) => {
+                        {Data.productdetails.map((value) => {
                             return (
                                 <React.Fragment key={value.id}>
                                     <div className='d-flex gap-5 align-items-center'>

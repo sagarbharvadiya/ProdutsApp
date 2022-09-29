@@ -1,5 +1,5 @@
 import React from 'react'
-import HotelData from '../HotelData.json'
+import Data from '../../Data.json';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import Rating from '@mui/material/Rating';
@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const CollectionItem = () => {
     return (
         <>
-            {HotelData.Collecion.CollecionItem.map((value) => {
+            {Data.Collecion.CollecionItem.map((value) => {
                 return (
                     <React.Fragment key={value.id}>
                         <div className='col-xl-4 col-sm-6 '>

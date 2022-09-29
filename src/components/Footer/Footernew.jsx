@@ -1,6 +1,6 @@
 import React from 'react'
-import HotelData from '../HotelData.json';
-import logo from '../img/logo.png'
+import Data from '../../Data.json';
+import logo from '../../img/logo.png'
 const Footernew = () => {
   return (
     <><section className='footer'>
@@ -16,7 +16,7 @@ const Footernew = () => {
               </div>
             </div>
           </div>
-          {HotelData.footernew.map((value) => {
+          {Data.footernew.map((value) => {
             return (
               <React.Fragment key={value.id}>
                 <div className='col-lg-2 col-sm-4'>

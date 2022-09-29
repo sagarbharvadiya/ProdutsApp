@@ -1,12 +1,12 @@
 import React from 'react'
-import Banner from '../components/Banner'
-import Hotel from '../Hotel';
+import Banner from '../components/Home/Banner'
+import Product from './Product';
 
 const Home = () => {
   return (
     <>
     <Banner/>
-    <Hotel/>
+    <Product/>
     </>
   )
 }

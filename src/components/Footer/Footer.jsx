@@ -4,7 +4,7 @@ import SportsVolleyballIcon from '@mui/icons-material/SportsVolleyball';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import HotelData from '../HotelData.json'
+import Data from '../../Data.json'
 const Footer = () => {
     return (
         <>
@@ -14,7 +14,7 @@ const Footer = () => {
                 <footer>
                     <div className='row'>
                         <div className='footer-data'>
-                            {HotelData.footer.map((value) => {
+                            {Data.footer.map((value) => {
                                 return (
                                     <React.Fragment key={value.id}>
                                         <div className=' container'>

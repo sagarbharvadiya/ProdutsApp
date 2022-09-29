@@ -1,19 +1,18 @@
 import React from 'react';
 import '../src/css/style.css'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import NavbarMain from './components/Navbar';
+import NavbarMain from './components/Header/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Collection from './pages/Collection';
-
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import { Route, Routes } from 'react-router-dom';
 // import Footer from './components/Footer';
-import Footernew from './components/Footernew';
-import ProductDetails from './components/Product-Details';
-import ProductFull from './components/ProductFull';
-import CollectionFull from './components/Collectionfull';
+import Footernew from './components/Footer/Footernew';
+import ProductDetails from './components/Products/Product-Details';
+import ProductFull from './components/Products/ProductFull';
+import CollectionFull from './components/Collections/Collectionfull';
 // import Loader from './components/Loader';
 function App() {
  

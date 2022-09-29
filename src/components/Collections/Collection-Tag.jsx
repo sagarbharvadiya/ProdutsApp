@@ -1,5 +1,5 @@
 import React from 'react'
-import HotelData from '../HotelData.json'
+import Data from '../../Data.json';
 const CollectionTag = () => {
     return (
         <>
@@ -7,7 +7,7 @@ const CollectionTag = () => {
                 <h4 className='pro-sidebar-title'>Tag</h4>
                 <div className='sidebar-widget-tag'>
                     <ul>
-                        {HotelData.Collecion.Tag.map((value) => {
+                        {Data.Collecion.Tag.map((value) => {
                             return (
                                 <React.Fragment key={value.id}>
                                     <li> 

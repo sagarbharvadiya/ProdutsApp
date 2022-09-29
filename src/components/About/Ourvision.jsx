@@ -1,12 +1,12 @@
 import React from 'react'
-import HotelData from '../HotelData.json'
+import Data from '../../Data.json'
 const Ourvision = () => {
   return (
     <>
     <section className='about-mission-area pb-7'>
         <div className=' container'>
             <div className=' row'>
-                {HotelData['Our Vision'].map((value)=>{
+                {Data['Our Vision'].map((value)=>{
                     return(
                         <React.Fragment key={value.id}>
                             <div className='col-lg-4 col-md-4'>

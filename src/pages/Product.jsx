@@ -1,19 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react'
 // import Button from '@mui/material/Button';
-import HotelData from "../src/HotelData.json"
-import Icons from './components/Icons';
-import Subscribe from '../src/components/Subscribe.jsx';
+import Data from "../Data.json"
+import Icons from '../components/Header/Icons';
+import Subscribe from '../components/Home/Subscribe.jsx';
 import { Link } from 'react-router-dom';
 
 const Hotel = () => {
-
-
   return (
     <>
       <section className='product'>
         <div className='container'>
           <div className='row'>
-            {HotelData.product.map((value) => {
+            {Data.product.map((value) => {
               return (
                 <React.Fragment key={value.id}>
                   <div className='col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 '>
